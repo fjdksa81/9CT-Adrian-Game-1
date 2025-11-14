@@ -1,14 +1,13 @@
-
+import random
 
 # Mainloop
 
-while game_over == False
+while game_over == False:
    while day_count != mission_day_requirement:
-      print
-      day_count = day_count+1
+      print (day_start_text)
       days_until_mission = mission_day_requirement-day_count
-      
-      if  multi_day_event == False
+
+      if  multi_day_event == False:
           event_check = random_number = random.randint(1, 10)
           # Long event = 1, only morning = 2/3, only afternoon = 4/5, all day = 6/7, no event = 7-10
           if event_check == 8 or 9 or 10: 
@@ -35,3 +34,7 @@ while game_over == False
          else: 
             multi_day_event_4()
             pass
+      print(day_end_text)
+      day_count = day_count+1
+   mission()
+   day_count = 0

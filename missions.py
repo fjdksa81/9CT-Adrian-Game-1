@@ -1,5 +1,12 @@
 import random
+import main
+import flavortext
+import events
+import saves
+import stats
+
+
+
 
 def mission_one():
-    mission_day_requirement = 7
-    
+o0 viot7

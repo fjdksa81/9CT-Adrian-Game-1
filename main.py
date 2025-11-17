@@ -3,9 +3,11 @@ import events
 import missions
 import flavortext
 import saves
-import statistics
+import stats
 
 # Mainloop
+
+game_over = False
 
 while game_over == False:
    while day_count != mission_day_requirement:

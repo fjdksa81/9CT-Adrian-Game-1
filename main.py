@@ -1,4 +1,9 @@
 import random
+import events
+import missions
+import flavortext
+import saves
+import statistics
 
 # Mainloop
 
@@ -16,10 +21,10 @@ while game_over == False:
              all_day_event()
              pass
           elif event_check == 4 or 5:
-             afternoon_event
+             afternoon_event()
              pass
           elif event_checker == 2 or 3:
-             morning_event
+             morning_event()
              pass
           else:
              multi_day_event_1
@@ -38,3 +43,5 @@ while game_over == False:
       day_count = day_count+1
    mission()
    day_count = 0
+
+print(end_game_flavor)

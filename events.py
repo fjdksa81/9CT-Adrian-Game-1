@@ -39,9 +39,126 @@ def all_day_event():
             if event_choice == "C":
                 print(event_choice_text_1_all_day_response_3_3)
     elif event_pick == 2:
+        print(event_choice_text_2_all_day)
+        event_choice  = input("Insert Your Response: [A,B,C]")
+        if event_choice == "A":
+            print(event_choice_text_2_all_day_response_1)
+            event_choice  = input("Insert Your Response: [A,B,C]")
+            if event_choice == "A":
+                print(event_choice_text_2_all_day_response_2_1)
+            if event_choice == "B":
+                print(event_choice_text_2_all_day_response_2_2)
+            if event_choice == "C":
+                print(event_choice_text_2_all_day_response_2_3)
 
+        elif event_choice == "B":
+            print(event_choice_text_2_all_day_response_2)
+            event_choice  = input("Insert Your Response: [A,B,C]")
+            if event_choice == "A":
+                print(event_choice_text_2_all_day_response_2_1)
+            if event_choice == "B":
+                print(event_choice_text_2_all_day_response_2_2)
+            if event_choice == "C":
+                print(event_choice_text_2_all_day_response_2_3)
+        else:             
+            print(event_choice_text_2_all_day_response_3)
+            event_choice  = input("Insert Your Response: [A,B,C]")
+            if event_choice == "A":
+                print(event_choice_text_2_all_day_response_3_1)
+            if event_choice == "B":
+                print(event_choice_text_2_all_day_response_3_2)
+            if event_choice == "C":
+                print(event_choice_text_2_all_day_response_3_3)
     elif event_pick == 3:
+        print(event_choice_text_3_all_day)
+        event_choice  = input("Insert Your Response: [A,B,C]")
+        if event_choice == "A":
+            print(event_choice_text_3_all_day_response_1)
+            event_choice  = input("Insert Your Response: [A,B,C]")
+            if event_choice == "A":
+                print(event_choice_text_3_all_day_response_2_1)
+            if event_choice == "B":
+                print(event_choice_text_3_all_day_response_2_2)
+            if event_choice == "C":
+                print(event_choice_text_3_all_day_response_2_3)
 
+        elif event_choice == "B":
+            print(event_choice_text_3_all_day_response_2)
+            event_choice  = input("Insert Your Response: [A,B,C]")
+            if event_choice == "A":
+                print(event_choice_text_3_all_day_response_2_1)
+            if event_choice == "B":
+                print(event_choice_text_3_all_day_response_2_2)
+            if event_choice == "C":
+                print(event_choice_text_3_all_day_response_2_3)
+        else:             
+            print(event_choice_text_3_all_day_response_3)
+            event_choice  = input("Insert Your Response: [A,B,C]")
+            if event_choice == "A":
+                print(event_choice_text_3_all_day_response_3_1)
+            if event_choice == "B":
+                print(event_choice_text_3_all_day_response_3_2)
+            if event_choice == "C":
+                print(event_choice_text_3_all_day_response_3_3)
     elif event_pick == 4:
+        print(event_choice_text_4_all_day)
+        event_choice  = input("Insert Your Response: [A,B,C]")
+        if event_choice == "A":
+            print(event_choice_text_4_all_day_response_1)
+            event_choice  = input("Insert Your Response: [A,B,C]")
+            if event_choice == "A":
+                print(event_choice_text_4_all_day_response_2_1)
+            if event_choice == "B":
+                print(event_choice_text_4_all_day_response_2_2)
+            if event_choice == "C":
+                print(event_choice_text_4_all_day_response_2_3)
 
+        elif event_choice == "B":
+            print(event_choice_text_4_all_day_response_2)
+            event_choice  = input("Insert Your Response: [A,B,C]")
+            if event_choice == "A":
+                print(event_choice_text_4_all_day_response_2_1)
+            if event_choice == "B":
+                print(event_choice_text_4_all_day_response_2_2)
+            if event_choice == "C":
+                print(event_choice_text_4_all_day_response_2_3)
+        else:             
+            print(event_choice_text_4_all_day_response_3)
+            event_choice  = input("Insert Your Response: [A,B,C]")
+            if event_choice == "A":
+                print(event_choice_text_4_all_day_response_3_1)
+            if event_choice == "B":
+                print(event_choice_text_4_all_day_response_3_2)
+            if event_choice == "C":
+                print(event_choice_text_4_all_day_response_3_3)
     else:
+        print(event_choice_text_5_all_day)
+        event_choice  = input("Insert Your Response: [A,B,C]")
+        if event_choice == "A":
+            print(event_choice_text_5_all_day_response_1)
+            event_choice  = input("Insert Your Response: [A,B,C]")
+            if event_choice == "A":
+                print(event_choice_text_5_all_day_response_2_1)
+            if event_choice == "B":
+                print(event_choice_text_5_all_day_response_2_2)
+            if event_choice == "C":
+                print(event_choice_text_5_all_day_response_2_3)
+
+        elif event_choice == "B":
+            print(event_choice_text_5_all_day_response_2)
+            event_choice  = input("Insert Your Response: [A,B,C]")
+            if event_choice == "A":
+                print(event_choice_text_5_all_day_response_2_1)
+            if event_choice == "B":
+                print(event_choice_text_5_all_day_response_2_2)
+            if event_choice == "C":
+                print(event_choice_text_5_all_day_response_2_3)
+        else:             
+            print(event_choice_text_5_all_day_response_3)
+            event_choice  = input("Insert Your Response: [A,B,C]")
+            if event_choice == "A":
+                print(event_choice_text_5_all_day_response_3_1)
+            if event_choice == "B":
+                print(event_choice_text_5_all_day_response_3_2)
+            if event_choice == "C":
+                print(event_choice_text_5_all_day_response_3_3)

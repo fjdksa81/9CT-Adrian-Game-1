@@ -8,6 +8,7 @@ import stats
 # Mainloop
 
 game_over = False
+multi_day_event = False
 
 while game_over == False:
    while day_count != mission_day_requirement:
@@ -15,7 +16,7 @@ while game_over == False:
       days_until_mission = mission_day_requirement-day_count
 
       if  multi_day_event == False:
-          event_check = random_number = random.randint(1, 10)
+          event_check = random.randint(1, 10)
           # Long event = 1, only morning = 2/3, only afternoon = 4/5, all day = 6/7, no event = 7-10
           if event_check == 8 or 9 or 10: 
              pass
